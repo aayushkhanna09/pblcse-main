@@ -168,7 +168,7 @@
                 Travellers</p>
             <p
                 class="text-gray-500 max-w-2xl mx-auto italic text-lg leading-relaxed border-l-2 border-green-500/30 pl-6 text-left">
-                "RAही (Raahi) means traveler in Hindi. A community-driven travel social media platform that integrates
+                "RAही - A community-driven travel social media platform that integrates
                 journey tracking, social interaction, personalized recommendations, and gamification into a single space
                 for Indian travelers."
             </p>
@@ -180,10 +180,7 @@
                     class="text-green-400">Vision</span></h2>
             <p class="text-gray-400 leading-relaxed text-justify mb-4">
                 RAही connects people who enjoy discovering new places and offbeat destinations, combining travel
-                planning tools with a social media layer to foster engagement. Current apps are fragmented — they focus
-                on single aspects like booking (MakeMyTrip), navigation (Google Maps), or reviews (TripAdvisor).
-                Travelers lack an integrated space to exchange real-time tips and itineraries.
-            </p>
+                planning tools with a social media layer to foster engagement.
             <div class="grid grid-cols-3 gap-4 mt-6">
                 <div class="p-4 rounded-2xl bg-green-500/5 border border-green-500/10 text-center">
                     <i class="fas fa-map-signs text-green-500 text-xl mb-2"></i>
@@ -197,8 +194,9 @@
                 </div>
                 <div class="p-4 rounded-2xl bg-green-500/5 border border-green-500/10 text-center">
                     <i class="fas fa-hand-holding-usd text-emerald-400 text-xl mb-2"></i>
-                    <p class="text-[10px] text-green-400 font-bold uppercase tracking-widest">Empower Guides</p>
-                    <p class="text-xs text-gray-500 mt-1">Monetization for guides & photographers</p>
+                    <p class="text-[10px] text-green-400 font-bold uppercase tracking-widest">Facilitate Journey
+                        Tracking</p>
+                    <p class="text-xs text-gray-500 mt-1">Track and document journeys seamlessly.</p>
                 </div>
             </div>
         </section>
@@ -226,23 +224,19 @@
             </div>
             <div class="space-y-6">
                 <div class="glass p-7 rounded-3xl border-r-4 border-green-500/50 feature-card">
-                    <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-2">Scope — In</h3>
-                    <ul class="text-sm text-gray-500 space-y-1">
+                    <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-3">Scope of RAही</h3>
+                    <ul class="text-sm text-gray-300 space-y-1.5">
                         <li>▸ Destination discovery by theme (beaches, culture, food)</li>
-                        <li>▸ Interactive map-based exploration & route planning</li>
-                        <li>▸ Story posting (photo + caption) & social features</li>
-                        <li>▸ Mobile-first, responsive UI</li>
-                    </ul>
-                </div>
-                <div class="glass p-7 rounded-3xl border-r-4 border-emerald-500/50 feature-card">
-                    <h3 class="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-2">Scope — Out</h3>
-                    <ul class="text-sm text-gray-500 space-y-1">
-                        <li>▸ Real-time booking (hotels, activities)</li>
-                        <li>▸ Offline mode & GPS tracking</li>
-                        <li>▸ Multilingual support beyond English/Hindi</li>
+                        <li>▸ Interactive Map-based exploration & route planning</li>
+                        <li>▸ Story posting (photo + caption) & social feed</li>
+                        <li>▸ Likes, comments & bookmarks</li>
+                        <li>▸ Community-driven recommendations</li>
+                        <li>▸ Gamified travel challenges & badges</li>
+                        <li>▸ Mobile-first, responsive UI (React Native)</li>
                     </ul>
                 </div>
             </div>
+
         </section>
 
         <!-- ====== KEY INNOVATIONS (USPs) ====== -->
@@ -264,7 +258,7 @@
                         <i class="fas fa-map text-green-400 text-2xl"></i>
                     </div>
                     <h3 class="font-bold mb-2 uppercase text-xs tracking-widest text-green-300">Interactive Mapping</h3>
-                    <p class="text-sm text-gray-500">Mapbox-powered interactive maps with clickable markers and route
+                    <p class="text-sm text-gray-500">Interactive maps with clickable markers and route
                         planning for journey visualization.</p>
                 </div>
                 <div class="glass p-7 rounded-3xl text-center feature-card">
@@ -332,14 +326,14 @@
                     <div class="flex items-center gap-3 mb-4">
                         <div class="w-10 h-10 rounded-xl bg-green-500/10 flex items-center justify-center"><i
                                 class="fas fa-user-shield text-green-500"></i></div>
-                        <h3 class="font-bold uppercase text-xs tracking-widest text-green-300">User Roles & Security
+                        <h3 class="font-bold uppercase text-xs tracking-widest text-green-300">Auth & Security
                         </h3>
                     </div>
                     <ul class="text-sm text-gray-500 space-y-1.5">
-                        <li>▸ Admin: Moderate content, manage spam</li>
-                        <li>▸ End User: Discover, post, engage socially</li>
-                        <li>▸ JWT Auth, rate limiting, XSS/SQLi protection</li>
-                        <li>▸ WCAG 2.1 accessibility compliance</li>
+                        <li>▸ Firebase Authentication (Email/Password)</li>
+
+                        <li>▸ Encrypted media storage & secure API calls</li>
+                        <li>▸ Graceful error handling (auth failures, timeouts)</li>
                     </ul>
                 </div>
             </div>
@@ -357,46 +351,92 @@
                     <thead>
                         <tr
                             class="border-b border-green-900/30 text-green-500/80 text-[10px] uppercase tracking-widest">
-                            <th class="pb-3 pr-4">Component</th>
-                            <th class="pb-3 pr-4">Technology</th>
-                            <th class="pb-3">Purpose</th>
+                            <th class="pb-3 pr-4">Feature Category</th>
+                            <th class="pb-3 pr-4">Specific Feature</th>
+                            <th class="pb-3">Technology / Tool Used</th>
                         </tr>
                     </thead>
                     <tbody class="text-gray-400">
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Framework</td>
-                            <td class="py-3 pr-4">React (TypeScript) + Vite</td>
-                            <td class="py-3">Fast dev build & type safety</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Core Framework</td>
+                            <td class="py-2.5 pr-4">Mobile Application</td>
+                            <td class="py-2.5">React Native & Expo</td>
                         </tr>
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Styling</td>
-                            <td class="py-3 pr-4">Tailwind CSS + Shadcn UI</td>
-                            <td class="py-3">Responsive component library</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Authentication</td>
+                            <td class="py-2.5 pr-4">User Sign-up / Login</td>
+                            <td class="py-2.5">Firebase Auth</td>
                         </tr>
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Backend</td>
-                            <td class="py-3 pr-4">Supabase (PostgreSQL)</td>
-                            <td class="py-3">BaaS — DB, Auth, Storage</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Database</td>
+                            <td class="py-2.5 pr-4">Real-time Data Sync</td>
+                            <td class="py-2.5">Cloud Firestore</td>
                         </tr>
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Auth</td>
-                            <td class="py-3 pr-4">Supabase Auth (JWT)</td>
-                            <td class="py-3">Secure token-based login</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300" rowspan="2">Profile</td>
+                            <td class="py-2.5 pr-4">State Coverage Tracker</td>
+                            <td class="py-2.5">JavaScript (Sets) & Firestore queries</td>
                         </tr>
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Mapping</td>
-                            <td class="py-3 pr-4">Mapbox GL JS</td>
-                            <td class="py-3">Interactive travel maps</td>
+                            <td class="py-2.5 pr-4">Achievements & Badges</td>
+                            <td class="py-2.5">Firestore & React Native UI components</td>
                         </tr>
                         <tr class="border-b border-white/5">
-                            <td class="py-3 pr-4 font-bold text-green-300">Storage</td>
-                            <td class="py-3 pr-4">Supabase Storage</td>
-                            <td class="py-3">Media upload (images/videos)</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300" rowspan="3">Content Creation</td>
+                            <td class="py-2.5 pr-4">Photo Uploads</td>
+                            <td class="py-2.5">Expo Image Picker</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">GPS & Check-ins</td>
+                            <td class="py-2.5">Expo Location (GPS & Reverse Geocoding)</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Check-in State Selector</td>
+                            <td class="py-2.5">React Native ScrollView & Firestore</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300" rowspan="3">Social Logic</td>
+                            <td class="py-2.5 pr-4">Follow / Request System</td>
+                            <td class="py-2.5">Firestore (arrayUnion/arrayRemove) & Write Batches</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Activity Feed</td>
+                            <td class="py-2.5">Firestore (onSnapshot) & Composite Indexes</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Likes & Notifications</td>
+                            <td class="py-2.5">Firestore (increment) & Server Timestamps</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300" rowspan="3">Discovery</td>
+                            <td class="py-2.5 pr-4">Explore Image Grid</td>
+                            <td class="py-2.5">React Native FlatList & Firestore (orderBy)</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Search (Users / Posts)</td>
+                            <td class="py-2.5">Firestore queries (where filters)</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Interactive Travel Map</td>
+                            <td class="py-2.5">React Native Maps & Google Maps SDK</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300" rowspan="3">UI / UX</td>
+                            <td class="py-2.5 pr-4">Responsive Layouts</td>
+                            <td class="py-2.5">Flexbox & Dimensions API</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Safe Area Handling</td>
+                            <td class="py-2.5">React Native Safe Area Context</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4">Icons</td>
+                            <td class="py-2.5">Ionicons (Expo Vector Icons)</td>
                         </tr>
                         <tr>
-                            <td class="py-3 pr-4 font-bold text-green-300">State Mgmt</td>
-                            <td class="py-3 pr-4">React Query</td>
-                            <td class="py-3">Server-state & API caching</td>
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Development</td>
+                            <td class="py-2.5 pr-4">Version Control</td>
+                            <td class="py-2.5">Git & GitHub (aayushkhanna09/rahi-app)</td>
                         </tr>
                     </tbody>
                 </table>
@@ -405,17 +445,17 @@
             <!-- Methodology Cards -->
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="glass p-8 rounded-3xl text-center feature-card">
-                    <i class="fas fa-images text-green-500 text-3xl mb-4"></i>
-                    <h3 class="font-bold mb-2 uppercase text-xs tracking-widest text-green-300">Lazy Loading & Caching
+                    <i class="fas fa-heartbeat text-green-500 text-3xl mb-4"></i>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-widest text-green-300">Real-Time Monitoring
                     </h3>
-                    <p class="text-sm text-gray-500">Lazy-loaded images with Cloudflare caching for optimal performance
-                        and fast page loads.</p>
+                    <p class="text-sm text-gray-500">Continuously tracks application performance and server health to
+                        identify and resolve issues proactively.</p>
                 </div>
                 <div class="glass p-8 rounded-3xl text-center feature-card">
-                    <i class="fas fa-shield-alt text-green-400 text-3xl mb-4"></i>
-                    <h3 class="font-bold mb-2 uppercase text-xs tracking-widest text-green-300">Error Handling</h3>
-                    <p class="text-sm text-gray-500">Defined mechanisms for Auth failure, API timeouts, 404 pages, and
-                        file size limit enforcement.</p>
+                    <i class="fas fa-database text-green-400 text-3xl mb-4"></i>
+                    <h3 class="font-bold mb-2 uppercase text-xs tracking-widest text-green-300">Automated Backups</h3>
+                    <p class="text-sm text-gray-500">Regularly saves data and configurations to ensure business
+                        continuity in case of failures.</p>
                 </div>
                 <div class="glass p-8 rounded-3xl text-center border-2 border-green-500/20 bg-green-500/5 feature-card">
                     <i class="fab fa-github text-green-500 text-3xl mb-4"></i>
@@ -427,42 +467,155 @@
             </div>
         </section>
 
-        <!-- ====== LITERATURE SURVEY & RESULTS ====== -->
-        <section id="results" class="glass p-12 rounded-[3.5rem] border-t-4 border-green-500 glow fade-up">
-            <h2 class="text-3xl font-black mb-12 text-center uppercase tracking-tight">Literature Survey & <span
+        <!-- ====== MARKET ANALYSIS ====== -->
+        <section id="results" class="space-y-12 fade-up">
+            <h2 class="text-4xl font-black text-center uppercase tracking-tight">Market <span
                     class="text-green-500">Analysis</span></h2>
-            <div class="grid md:grid-cols-2 gap-16 items-center">
-                <div class="h-96"><canvas id="resultsChart"></canvas></div>
-                <div class="space-y-6">
-                    <div
-                        class="p-6 rounded-2xl bg-green-500/5 flex justify-between items-center border border-green-500/15 shadow-inner">
-                        <span class="text-gray-400 font-bold uppercase text-xs tracking-widest">Map Response</span>
-                        <span class="text-green-400 font-mono font-black text-3xl">&lt;1s</span>
+            <p class="text-center text-gray-500 max-w-3xl mx-auto text-sm leading-relaxed">
+                The travel tech market is polarized between <b class="text-green-400">Utility</b> (Booking/Navigation)
+                and <b class="text-green-400">Content</b> (Blogs/Reviews). RAही identifies a <b
+                    class="text-green-300">"Blue Ocean"</b>
+                in the middle: <b class="text-green-400">Social Gamification</b> specifically for the Indian Traveler.
+            </p>
+
+            <!-- Competitive Landscape Matrix -->
+            <div class="glass p-8 rounded-3xl glow overflow-x-auto">
+                <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-6">Competitive Landscape Matrix
+                </h3>
+                <table class="w-full text-sm text-left">
+                    <thead>
+                        <tr
+                            class="border-b border-green-900/30 text-green-500/80 text-[10px] uppercase tracking-widest">
+                            <th class="pb-3 pr-4">Category</th>
+                            <th class="pb-3 pr-4">Key Players</th>
+                            <th class="pb-3 pr-4">Primary Focus</th>
+                            <th class="pb-3">Where RAही Wins</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-gray-400">
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Global Social Travel</td>
+                            <td class="py-2.5 pr-4">Explurger</td>
+                            <td class="py-2.5 pr-4">Social posting, miles, rewards</td>
+                            <td class="py-2.5">Too Global — lacks "Indian State" gamification</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Community & Blogs</td>
+                            <td class="py-2.5 pr-4">Tripoto</td>
+                            <td class="py-2.5 pr-4">Itineraries, long-form blogs</td>
+                            <td class="py-2.5">No real-time feed — feels like a magazine</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Buddy Finders</td>
+                            <td class="py-2.5 pr-4">Travel Buddy, Hiuen</td>
+                            <td class="py-2.5 pr-4">Finding partners, meetups</td>
+                            <td class="py-2.5">Poor visual tracking of travel history</td>
+                        </tr>
+                        <tr class="border-b border-white/5">
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Pure Trackers</td>
+                            <td class="py-2.5 pr-4">Polarsteps, Been</td>
+                            <td class="py-2.5 pr-4">Visual path tracking</td>
+                            <td class="py-2.5">Zero community — digital diaries only</td>
+                        </tr>
+                        <tr>
+                            <td class="py-2.5 pr-4 font-bold text-green-300">Utility / OTAs</td>
+                            <td class="py-2.5 pr-4">MMT, Google Maps</td>
+                            <td class="py-2.5 pr-4">Booking, Navigation</td>
+                            <td class="py-2.5">Zero emotion — no badges, no storytelling</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Competitor Chart + Detailed Breakdown -->
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div class="glass p-8 rounded-3xl glow">
+                    <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-6">Feature Coverage
+                        Comparison</h3>
+                    <div class="h-96"><canvas id="resultsChart"></canvas></div>
+                </div>
+                <div class="space-y-5">
+                    <div class="glass p-6 rounded-2xl border-l-4 border-green-500/50 feature-card">
+                        <h4 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-2">vs. Explurger <span
+                                class="text-gray-600">— Closest Rival</span></h4>
+                        <p class="text-sm text-gray-500">Explurger rewards <b class="text-green-300">distance
+                                (Miles)</b>.
+                            RAही rewards <b class="text-green-300">coverage (States/UTs)</b>.
+                            "Visiting 10 States" is a more culturally relevant flex than "5000 miles."</p>
                     </div>
-                    <div
-                        class="p-6 rounded-2xl bg-green-500/5 flex justify-between items-center border border-green-500/15 shadow-inner">
-                        <span class="text-gray-400 font-bold uppercase text-xs tracking-widest">Apps Analyzed</span>
-                        <span class="text-green-400 font-mono font-black text-3xl">10</span>
+                    <div class="glass p-6 rounded-2xl border-l-4 border-green-500/50 feature-card">
+                        <h4 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-2">vs. Tripoto <span
+                                class="text-gray-600">— Content Giant</span></h4>
+                        <p class="text-sm text-gray-500">Tripoto requires effort (long blogs). RAही lowers the barrier:
+                            <b class="text-green-300">post a photo, write a caption, or just check-in</b>.
+                            Captures the "in-the-moment" vibe Gen Z prefers.
+                        </p>
                     </div>
-                    <div class="space-y-2 mt-4">
-                        <p class="text-gray-500 text-sm italic text-justify leading-relaxed">
-                            <b class="text-green-400">Google Maps / Strava:</b> Great for navigation & tracking but lack
-                            travel-specific social features and gamification.
-                        </p>
-                        <p class="text-gray-500 text-sm italic text-justify leading-relaxed">
-                            <b class="text-green-400">MakeMyTrip / Yatra / Cleartrip:</b> Booking-focused — no social
-                            feed, no journey tracking, no community layer.
-                        </p>
-                        <p class="text-gray-500 text-sm italic text-justify leading-relaxed">
-                            <b class="text-green-400">TripAdvisor / Lonely Planet:</b> Good reviews & guides but lack
-                            real-time social interaction and personalized tracking.
-                        </p>
-                        <p class="text-green-400 text-sm font-bold italic mt-3">
-                            RAही = Journey Tracking + Social Interaction + Real-Time Updates + Recommendations +
-                            Gamification — all in one.
+                    <div class="glass p-6 rounded-2xl border-l-4 border-green-500/50 feature-card">
+                        <h4 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-2">vs. Polarsteps /
+                            Been <span class="text-gray-600">— Trackers</span></h4>
+                        <p class="text-sm text-gray-500">Polarsteps is solitary or shared via a link.
+                            RAही is a <b class="text-green-300">Social Network first</b> — integrating mapping tech
+                            with the Follow/Like dopamine loop of Instagram.</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl border-l-4 border-emerald-500/50 feature-card">
+                        <h4 class="text-emerald-400 font-bold text-xs uppercase tracking-widest mb-2">vs. Strava <span
+                                class="text-gray-600">— Conceptual Analogy</span></h4>
+                        <p class="text-sm text-gray-500"><b class="text-green-300">"Strava for Indian Travel."</b>
+                            Just as Strava turned running into a social activity, RAही turns traveling across India into
+                            a competitive, social sport: <b class="text-green-300">Track → Map → Share → Compare</b>.
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <!-- Unique Value Proposition -->
+            <div class="glass p-8 rounded-3xl glow border-t-4 border-green-500">
+                <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-6 text-center">Unique Value
+                    Proposition</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-5 rounded-2xl bg-green-500/5 border border-green-500/10 text-center">
+                        <i class="fas fa-trophy text-green-500 text-2xl mb-3"></i>
+                        <h4 class="text-green-300 font-bold text-xs uppercase tracking-widest mb-2">The "Bharat Darshan"
+                            Engine</h4>
+                        <p class="text-xs text-gray-500">Gamifies Indian travel by turning every state border crossing
+                            into a digital trophy. It's not just travel; it's a mission to unlock all 29 States & 8 UTs.
+                        </p>
+                    </div>
+                    <div class="p-5 rounded-2xl bg-green-500/5 border border-green-500/10 text-center">
+                        <i class="fas fa-feather-alt text-green-400 text-2xl mb-3"></i>
+                        <h4 class="text-green-300 font-bold text-xs uppercase tracking-widest mb-2">Context-Aware
+                            Storytelling</h4>
+                        <p class="text-xs text-gray-500">The feed adapts to you — whether it's a quick text update from
+                            a bus or a cinematic photo from a peak. No pressure to be an influencer; just be a traveler.
+                        </p>
+                    </div>
+                    <div class="p-5 rounded-2xl bg-green-500/5 border border-green-500/10 text-center">
+                        <i class="fas fa-passport text-emerald-400 text-2xl mb-3"></i>
+                        <h4 class="text-green-300 font-bold text-xs uppercase tracking-widest mb-2">Your Digital
+                            Passport</h4>
+                        <p class="text-xs text-gray-500">Builds a verified, interactive travel map of your life. Every
+                            check-in adds a permanent stamp to your profile, visualizing your journey across the
+                            subcontinent.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary Verdict -->
+            <div class="glass p-8 rounded-3xl text-center border-l-4 border-green-500 glow">
+                <h3 class="text-green-400 font-bold text-xs uppercase tracking-widest mb-4">Summary Verdict</h3>
+                <div class="flex flex-wrap justify-center gap-3 text-sm">
+                    <span class="px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-gray-500">Book a
+                        flight? <b class="text-green-400">MakeMyTrip</b></span>
+                    <span class="px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-gray-500">Read a
+                        guide? <b class="text-green-400">Tripoto</b></span>
+                    <span class="px-4 py-2 rounded-full bg-green-500/10 border border-green-500/20 text-gray-500">Track
+                        a world tour? <b class="text-green-400">Polarsteps</b></span>
+                </div>
+                <p class="text-green-400 font-bold text-sm mt-4 italic">
+                    Collect states, build a social travel map, and share stories with a community? <span
+                        class="text-green-300 text-base">Use RAही.</span>
+                </p>
             </div>
         </section>
 
@@ -471,10 +624,12 @@
             <h2 class="text-2xl font-extrabold mb-4 uppercase tracking-tight"><span
                     class="text-green-400">Conclusion</span></h2>
             <p class="text-gray-400 leading-relaxed text-justify">
-                RAही is the only platform providing Journey Tracking + Social Interaction + Real-Time Updates +
-                Personalized Recommendations + Gamification in a single place. Built on a modern React + Supabase stack
-                with Mapbox-powered interactive maps, it delivers a responsive, mobile-first experience. The project
-                successfully demonstrates the loop: <b class="text-green-300">Discover → Explore → Post → Engage</b>.
+                RAही is a purpose-built social travel platform for the Indian traveler — combining State Gamification,
+                Context-Aware Storytelling, and a Digital Passport into one cohesive mobile experience. Built with
+                <b class="text-green-300">React Native & Expo</b>, powered by <b class="text-green-300">Firebase Auth
+                    & Cloud Firestore</b>, and visualized through <b class="text-green-300">React Native Maps &
+                    Google Maps SDK</b>, it delivers a real-time, cross-platform experience. The project successfully
+                demonstrates the core loop: <b class="text-green-300">Discover → Check-In → Post → Engage → Collect</b>.
             </p>
         </section>
 
@@ -483,11 +638,11 @@
             <h2 class="text-[10px] font-black text-green-800 uppercase tracking-[0.5em] mb-12">Academic Credits</h2>
             <div class="flex flex-wrap justify-center gap-10">
                 <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-green-600">
-                    <p class="text-[9px] font-bold text-green-500 mb-2 uppercase tracking-widest">Project Supervisor</p>
+                    <p class="text-[9px] font-bold text-green-500 mb-2 uppercase tracking-widest">Project Guide</p>
                     <p class="font-black text-xl text-green-100">Dr. Usha Jain</p>
                 </div>
                 <div class="glass px-12 py-8 rounded-[2rem] border-b-4 border-green-800">
-                    <p class="text-[9px] font-bold text-green-600 mb-2 uppercase tracking-widest">Developer</p>
+                    <p class="text-[9px] font-bold text-green-600 mb-2 uppercase tracking-widest">Team Member</p>
                     <p class="font-black text-xl text-green-100">Aayush Khanna</p>
                     <p class="text-[10px] text-green-700 mt-1">23FE10CSE00555</p>
                 </div>
@@ -524,24 +679,36 @@
             }, 1000);
         }
 
-        // LITERATURE SURVEY CHART
+        // MARKET ANALYSIS CHART
         const ctx = document.getElementById('resultsChart').getContext('2d');
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Journey Tracking', 'Social Feed', 'Real-Time Tips', 'Gamification', 'Recommendations', 'Maps'],
+                labels: ['State Gamification', 'Social Feed', 'Journey Tracking', 'Zero-Media Posts', 'Privacy System', 'India Focus'],
                 datasets: [{
-                    label: 'Competitors (Avg)',
-                    data: [30, 20, 15, 5, 40, 70],
+                    label: 'Explurger',
+                    data: [10, 60, 30, 20, 40, 15],
                     backgroundColor: '#14532d',
-                    borderRadius: 8,
-                    barThickness: 22
+                    borderRadius: 6,
+                    barThickness: 12
+                }, {
+                    label: 'Tripoto',
+                    data: [0, 20, 10, 10, 30, 50],
+                    backgroundColor: '#1a3a1a',
+                    borderRadius: 6,
+                    barThickness: 12
+                }, {
+                    label: 'Polarsteps',
+                    data: [5, 5, 80, 15, 50, 10],
+                    backgroundColor: '#0f2e0f',
+                    borderRadius: 6,
+                    barThickness: 12
                 }, {
                     label: 'RAही',
-                    data: [95, 90, 85, 90, 80, 95],
+                    data: [95, 90, 85, 90, 92, 100],
                     backgroundColor: '#22c55e',
-                    borderRadius: 8,
-                    barThickness: 22
+                    borderRadius: 6,
+                    barThickness: 12
                 }]
             },
             options: {
@@ -550,12 +717,12 @@
                 indexAxis: 'y',
                 plugins: {
                     legend: {
-                        labels: { color: '#4ade80', font: { weight: 'bold', size: 11 }, padding: 20 }
+                        labels: { color: '#4ade80', font: { weight: 'bold', size: 10 }, padding: 15 }
                     }
                 },
                 scales: {
                     x: { beginAtZero: true, max: 100, grid: { color: '#ffffff08' }, ticks: { color: '#166534', callback: v => v + '%' } },
-                    y: { grid: { display: false }, ticks: { color: '#4ade80', font: { size: 10, weight: 'bold' } } }
+                    y: { grid: { display: false }, ticks: { color: '#4ade80', font: { size: 9, weight: 'bold' } } }
                 }
             }
         });
